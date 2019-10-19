@@ -7,3 +7,14 @@
 //
 
 import Foundation
+{
+
+var custID: String
+var firstName: String
+var lastName: String
+var fullName: String
+{
+    return "\(self.firstName) \(self.lastName)"
+}
+var emailId: String
+var billDictionary = Dictionary<String,Bill>()
