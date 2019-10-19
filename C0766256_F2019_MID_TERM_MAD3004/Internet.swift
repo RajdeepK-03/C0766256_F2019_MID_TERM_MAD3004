@@ -21,3 +21,12 @@ init(bId: String, bDate: Date, billType: bill_type, totalBillAmount: Float, prov
     self.internetGBused = internetGBused
     super.init(bId: bId, bDate: bDate, billType: billType, totalBillAmount: totalBillAmount)
 }
+override func displayData()
+    {
+        print("******************************************************")
+        super.displayData()
+        print("Provider Name: \(providerName)")
+        print("Internet GB Used: \(internetGBused)")
+    }
+    
+}
