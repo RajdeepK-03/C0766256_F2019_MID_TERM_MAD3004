@@ -7,3 +7,12 @@
 //
 
 import Foundation
+class Mobile : Bill
+{
+var mobileManufacturerName: String
+var mobileNumber: String
+var gbUsed: Float
+var minutesUsed: Float
+var billAmount: Float
+
+
