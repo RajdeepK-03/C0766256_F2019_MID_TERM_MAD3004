@@ -15,3 +15,9 @@ class Internet: Bill
     var internetGBused: Float
 
 init(bId: String, bDate: Date, billType: bill_type, totalBillAmount: Float, providerName: String, internetGBused: Float)
+
+{
+    self.providerName = providerName
+    self.internetGBused = internetGBused
+    super.init(bId: bId, bDate: bDate, billType: billType, totalBillAmount: totalBillAmount)
+}
