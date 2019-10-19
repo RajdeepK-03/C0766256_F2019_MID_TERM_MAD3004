@@ -7,3 +7,9 @@
 //
 
 import Foundation
+class Internet: Bill
+{
+    //- Provider Name, Internet GB used
+    
+    var providerName: String
+    var internetGBused: Float
