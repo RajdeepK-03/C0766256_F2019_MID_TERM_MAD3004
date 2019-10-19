@@ -15,4 +15,6 @@ var gbUsed: Float
 var minutesUsed: Float
 var billAmount: Float
 
+init(mobileManufacturerName: String, planName: String, mobileNumber: String, gbUsed: Float, minutesUsed:Float, billAmount: Float, bId: String, bDate: Date, billType: bill_type, totalBillAmount: Float)
+
 
