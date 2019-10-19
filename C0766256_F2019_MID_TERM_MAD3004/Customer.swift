@@ -18,3 +18,13 @@ var fullName: String
 }
 var emailId: String
 var billDictionary = Dictionary<String,Bill>()
+
+init(custID : String, firstName : String, lastName : String, emailId : String, billDictionary : Dictionary<String,Bill>)
+{
+    self.custID = custID
+    self.firstName = firstName
+    self.lastName = lastName
+    self.emailId = emailId
+    self.billDictionary = billDictionary
+    
+}
