@@ -28,3 +28,17 @@ init(custID : String, firstName : String, lastName : String, emailId : String, b
     self.billDictionary = billDictionary
     
 }
+
+func displayData()
+    {
+        print("*********************    Customer Information    ********************")
+        print("Customer ID: \(custID)")
+        print("Full Name: \(fullName)")
+        print("Email ID: \(emailId)")
+         print("*********************    Bill Information  ********************\n")
+        for item in billDictionary.values
+        {
+            item.displayData()
+        }
+    }
+}
