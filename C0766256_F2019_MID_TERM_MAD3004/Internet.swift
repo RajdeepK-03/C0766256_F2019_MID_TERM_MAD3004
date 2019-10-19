@@ -13,3 +13,5 @@ class Internet: Bill
     
     var providerName: String
     var internetGBused: Float
+
+init(bId: String, bDate: Date, billType: bill_type, totalBillAmount: Float, providerName: String, internetGBused: Float)
