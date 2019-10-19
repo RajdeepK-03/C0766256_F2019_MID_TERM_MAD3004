@@ -9,3 +9,12 @@
 import Foundation
 
 
+class Hydro : Bill
+{
+    // Agency Name, Unit consumed}
+
+    
+    var agencyName: String
+    var unitsConsumed: Float
+   
+
