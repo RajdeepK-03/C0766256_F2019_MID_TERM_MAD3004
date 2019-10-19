@@ -27,3 +27,15 @@ init(mobileManufacturerName: String, planName: String, mobileNumber: String, gbU
     
 }
  
+override func displayData()
+    {   print("**************************************************************")
+        super.displayData()
+        print("Mobile Manufacturer Name: \(mobileManufacturerName)")
+        print(" Mobile Number: \(mbileNumber)")
+        print("GB Used: \(gbUsed)")
+        print(" Minutes Used: \(minutesUsed)")
+        print("Bill Amount: \(billAmount)")
+        
+        
+    }
+}
