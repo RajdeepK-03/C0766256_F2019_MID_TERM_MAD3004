@@ -24,3 +24,14 @@ init(agencyName: String, unitsConsumed: Float,  bId: String, bDate: Date, billTy
     //self.h_billId = h_billId
     super.init(bId: bId, bDate: bDate, billType: billType, totalBillAmount: totalBillAmount)
 }
+
+override func displayData()
+        {
+            
+            print("************************************************")
+            super.displayData()
+            print("Agency Name: \(agencyName)")
+            print("Hydro Units Consumed: \(unitsConsumed)")
+        }
+    
+}
