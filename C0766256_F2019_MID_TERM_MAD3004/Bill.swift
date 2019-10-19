@@ -7,3 +7,22 @@
 //
 
 import Foundation
+
+
+
+class Bill : IDisplay
+{
+// Bill id, Bill Date, Bill Type and Total Bill Amount}
+    var bId: String
+    var bDate: Date
+    
+    enum bill_type
+    {
+        case Hydro
+        case Internet
+        case Mobile
+    }
+    var billType: bill_type
+    var totalBillAmount: Float
+ 
+
