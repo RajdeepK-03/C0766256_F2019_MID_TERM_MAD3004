@@ -15,7 +15,7 @@ var gbUsed: Float
 var minutesUsed: Float
 var billAmount: Float
 
-init(mobileManufacturerName: String, planName: String, mobileNumber: String, gbUsed: Float, minutesUsed:Float, billAmount: Float, bId: String, bDate: Date, billType: bill_type, totalBillAmount: Float)
+init(mobileManufacturerName: String, planName: String, mobileNumber: String, gbUsed: Float, minutesUsed:Float, billAmount: Float, bId: String, bDate: Date, billType: bill_type)
 
 {
     self.mobileManufacturerName = mobileManufacturerName
@@ -23,7 +23,7 @@ init(mobileManufacturerName: String, planName: String, mobileNumber: String, gbU
     self.gbUsed = gbUsed
     self.minutesUsed = minutesUsed
     self.billAmount = billAmount
-    super.init(bId: bId, bDate: bDate, billType: billType, totalBillAmount: totalBillAmount)
+    super.init(bId: bId, bDate: bDate, billType: billType)
     
 }
  
