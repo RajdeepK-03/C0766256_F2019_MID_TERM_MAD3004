@@ -16,13 +16,14 @@ class Hydro : Bill
     
     var agencyName: String
     var unitsConsumed: Float
+    var billAmount: Float
    
-init(agencyName: String, unitsConsumed: Float,  bId: String, bDate: Date, billType: bill_type, totalBillAmount: Float)
+init(agencyName: String, unitsConsumed: Float,  bId: String, bDate: Date, billType: bill_type, billAmount: Float)
 {
     self.agencyName = agencyName
     self.unitsConsumed = unitsConsumed
-    //self.h_billId = h_billId
-    super.init(bId: bId, bDate: bDate, billType: billType, totalBillAmount: totalBillAmount)
+    self.billAmount = billAmount
+    super.init(bId: bId, bDate: bDate, billType: billType)
 }
 
 override func displayData()

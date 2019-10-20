@@ -23,14 +23,13 @@ class Bill : IDisplay
         case Mobile
     }
     var billType: bill_type
-    var totalBillAmount: Float
- 
-init(bId: String, bDate: Date, billType: bill_type, totalBillAmount: Float)
+    var totalBillAmount: Float = 0
+init(bId: String, bDate: Date, billType: bill_type)
 {
     self.bId = bId
     self.bDate = bDate
     self.billType = billType
-    self.totalBillAmount = totalBillAmount
+    //self.totalBillAmount = totalBillAmount
     
 }
 func displayData()
@@ -38,7 +37,7 @@ func displayData()
         print(" Bill ID: \(bId)")
         print("Bill Date: \(bDate)")
         print("Bill Type: \(billType)")
-        print("Total Bill Amount: \(totalBillAmount)")
+        //print("Total Bill Amount: \(totalBillAmount)")
     }
     
 }
