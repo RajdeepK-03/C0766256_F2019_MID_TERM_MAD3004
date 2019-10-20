@@ -7,3 +7,10 @@
 //
 
 import Foundation
+extension Float
+{
+    func formatUnits() -> String
+    {
+        return "\(self) Units"
+    }
+}

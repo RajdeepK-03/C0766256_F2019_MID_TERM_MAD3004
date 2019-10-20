@@ -31,7 +31,7 @@ override func displayData()
             print("************************************************")
             super.displayData()
             print("Agency Name: \(agencyName)")
-            print("Hydro Units Consumed: \(unitsConsumed)")
+            print("Hydro Units Consumed: \(unitsConsumed.formatUnits())")
         }
     
 }
