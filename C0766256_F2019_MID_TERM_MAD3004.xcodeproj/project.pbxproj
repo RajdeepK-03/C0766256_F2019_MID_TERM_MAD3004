@@ -15,6 +15,7 @@
 		9B2B2B0D235BCD03000609E8 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B2B0C235BCD03000609E8 /* Insurance.swift */; };
 		9B2B2B0F235BCD37000609E8 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B2B0E235BCD37000609E8 /* Internet.swift */; };
 		9B2B2B11235BD7AF000609E8 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B2B10235BD7AF000609E8 /* Mobile.swift */; };
+		9B2B2B13235BE007000609E8 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B2B12235BE007000609E8 /* extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		9B2B2B0C235BCD03000609E8 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 		9B2B2B0E235BCD37000609E8 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 		9B2B2B10235BD7AF000609E8 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9B2B2B12235BE007000609E8 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				9B2B2B0C235BCD03000609E8 /* Insurance.swift */,
 				9B2B2B0E235BCD37000609E8 /* Internet.swift */,
 				9B2B2B10235BD7AF000609E8 /* Mobile.swift */,
+				9B2B2B12235BE007000609E8 /* extension.swift */,
 			);
 			path = C0766256_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				9B2B2B09235BC18E000609E8 /* Hydro.swift in Sources */,
 				9B2B2B07235BBD47000609E8 /* Customer.swift in Sources */,
 				9B2B2B0D235BCD03000609E8 /* Insurance.swift in Sources */,
+				9B2B2B13235BE007000609E8 /* extension.swift in Sources */,
 				9B2B2B0F235BCD37000609E8 /* Internet.swift in Sources */,
 				9B2B2B05235BBBF0000609E8 /* Bill.swift in Sources */,
 				9B2B2B0B235BC778000609E8 /* IDisplay.swift in Sources */,
