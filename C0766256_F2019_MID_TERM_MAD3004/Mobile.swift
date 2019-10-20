@@ -12,10 +12,10 @@ class Mobile : Bill
 var mobileManufacturerName: String
 var mobileNumber: String
 var gbUsed: Float
-var minutesUsed: Float
+var minutesUsed: Int
 var billAmount: Float
 
-init(mobileManufacturerName: String, planName: String, mobileNumber: String, gbUsed: Float, minutesUsed:Float, billAmount: Float, bId: String, bDate: Date, billType: bill_type)
+init(mobileManufacturerName: String, planName: String, mobileNumber: String, gbUsed: Float, minutesUsed:Int, billAmount: Float, bId: String, bDate: Date, billType: bill_type)
 
 {
     self.mobileManufacturerName = mobileManufacturerName
@@ -33,7 +33,7 @@ override func displayData()
         print("Mobile Manufacturer Name: \(mobileManufacturerName)")
         print(" Mobile Number: \(mobileNumber)")
         print("GB Used: \(gbUsed)")
-        print(" Minutes Used: \(minutesUsed)")
+        print(" Minutes Used: \(minutesUsed.formatMinute())")
         print("Bill Amount: \(billAmount)")
         
         
