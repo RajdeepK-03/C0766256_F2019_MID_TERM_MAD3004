@@ -29,3 +29,21 @@ var hydro2 = Hydro(agencyName: "Ontario Power Generation", unitsConsumed: 10.5, 
 var cust2 = Customer(custID: "A0102", firstName: "deep", lastName: "Chahal", emailId: "deep@gmail.com", billDictionary: [inter2.bId:inter2, hydro2.bId: hydro2])
     custDictionary.updateValue(cust1, forKey: cust1.custID)
     custDictionary.updateValue(cust2, forKey: cust2.custID)
+
+for items in custDictionary.values
+{
+    items.displayData()
+}
+for (k,v) in custDictionary
+{
+
+   if(k == "A0102")
+   {
+       
+       print("__________________________Search Result for Id _____________________")
+       v.displayData()
+    
+    
+   }
+   
+}
