@@ -7,6 +7,8 @@
 //
 
 import Foundation
+class Customer
+
 {
 
 var custID: String
