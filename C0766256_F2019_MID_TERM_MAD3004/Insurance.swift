@@ -7,3 +7,20 @@
 //
 
 import Foundation
+class Insurance: IDisplay
+
+{
+    var insuranceProvider: String
+    enum insuranceType
+    {
+        case HomeInsurance
+        case CarInsurance
+        case BusinessInsurance
+        case BikeInsurance
+        
+    }
+    var insurance_Type: insuranceType
+    var insuranceStartDate: Date
+    var insuranceEndDate: Date
+    var insuranceAmount: Float
+
