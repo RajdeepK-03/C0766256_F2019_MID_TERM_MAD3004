@@ -18,3 +18,14 @@ var internet1 = Internet(bId: "101", bDate: Date(), billType: Bill.bill_type.Int
 var hydro1 = Hydro(agencyName: "Ontario Power Generation", unitsConsumed: 20.5, bId: "102", bDate: Date(), billType: Bill.bill_type.Hydro, totalBillAmount: 50)
 
 var mob1 = Mobile(mobileManufacturerName: "Sony", planName: "Big Gig 25 GB", mobileNumber: "9465651859", gbUsed: 12.7, minutesUsed: 300, billAmount: 25.5, bId: "201", bDate: Date(), billType:Bill.bill_type.Mobile, totalBillAmount: 30.5)
+var cust1 = Customer(custID: "A0101", firstName: "Rajdeep", lastName: "Kaur", emailId: "rajdeep@gmail.com", billDictionary: [internet1.bId:internet1, hydro1.bId: hydro1, mob1.bId: mob1])
+    
+
+var inter2 = Internet(bId: "102", bDate: Date(), billType: Bill.bill_type.Internet, totalBillAmount: 30.5, providerName: "Rodgers", internetGBused: 12.4)
+
+var hydro2 = Hydro(agencyName: "Ontario Power Generation", unitsConsumed: 10.5, bId: "103", bDate: Date(), billType: Bill.bill_type.Hydro, totalBillAmount: 30)
+
+
+var cust2 = Customer(custID: "A0102", firstName: "deep", lastName: "Chahal", emailId: "deep@gmail.com", billDictionary: [inter2.bId:inter2, hydro2.bId: hydro2])
+    custDictionary.updateValue(cust1, forKey: cust1.custID)
+    custDictionary.updateValue(cust2, forKey: cust2.custID)
