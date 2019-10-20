@@ -38,9 +38,14 @@ func displayData()
         print("Full Name: \(fullName)")
         print("Email ID: \(emailId)")
          print("*********************    Bill Information  ********************\n")
+        
         for item in billDictionary.values
         {
             item.displayData()
         }
-    }
+        
+        if billDictionary.count == 0
+        {
+            print("This Customer contains no Bills")
+        }    }
 }
