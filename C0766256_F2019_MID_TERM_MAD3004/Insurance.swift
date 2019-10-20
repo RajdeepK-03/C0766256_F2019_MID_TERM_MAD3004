@@ -24,3 +24,12 @@ class Insurance: IDisplay
     var insuranceEndDate: Date
     var insuranceAmount: Float
 
+init(insuranceProvider: String, insurance_Type: insuranceType, insuranceStartDate: Date, insuranceEndDate: Date, insuranceAmount: Float)
+{
+    self.insuranceProvider = insuranceProvider
+    self.insurance_Type = insurance_Type
+    self.insuranceStartDate = insuranceStartDate
+    self.insuranceEndDate = insuranceEndDate
+    self.insuranceAmount = insuranceAmount
+}
+
