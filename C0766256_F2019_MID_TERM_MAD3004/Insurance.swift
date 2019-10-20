@@ -32,4 +32,15 @@ init(insuranceProvider: String, insurance_Type: insuranceType, insuranceStartDat
     self.insuranceEndDate = insuranceEndDate
     self.insuranceAmount = insuranceAmount
 }
+func displayData()
+    {
+        print("********************************************************")
+        print(" Name of Insurance Provider: \(insuranceProvider)")
+        print("Insurance Type: \(insurance_Type)")
+        print("Insurance StartDate: \(insuranceStartDate)")
+        print("Insurance EndDate: \(insuranceEndDate)")
+        print("Monthly Insurance Installment: \(insuranceAmount)")
+       
+}
+}
 
