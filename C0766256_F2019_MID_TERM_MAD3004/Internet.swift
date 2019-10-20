@@ -13,13 +13,14 @@ class Internet: Bill
     
     var providerName: String
     var internetGBused: Float
-
-init(bId: String, bDate: Date, billType: bill_type, totalBillAmount: Float, providerName: String, internetGBused: Float)
+    var billAmount: Float
+ init(bId: String, bDate: Date, billType: bill_type, billAmount: Float, providerName: String, internetGBused: Float)
 
 {
     self.providerName = providerName
     self.internetGBused = internetGBused
-    super.init(bId: bId, bDate: bDate, billType: billType, totalBillAmount: totalBillAmount)
+    self.billAmount = billAmount
+    super.init(bId: bId, bDate: bDate, billType: billType)
 }
 override func displayData()
     {
